@@ -22,7 +22,7 @@ using System.Data;
 /// ''' The Data namespace.
 
 /// ''' </summary>
-namespace Data
+namespace Saby7
 {
     /// <summary>
     ///     ''' Calss for managing SQLs for Database(SQL Server).
@@ -34,8 +34,9 @@ namespace Data
         ///         ''' Initializes a new instance of the <see cref="SQLSERVER"/> class.
         ///         ''' </summary>
         ///         ''' <exception cref="Exception">Devpp DLL not registered</exception>
-        public SQLSERVER()
+        public SQLSERVER(String connectionstring)
         {
+            ConnectionString = connectionstring;
         }
         /// <summary>
         ///         ''' The table devpp user

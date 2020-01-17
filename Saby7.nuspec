@@ -9,7 +9,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
    
     <projectUrl>https://github.com/sabinusi/Saby7</projectUrl>
-   
+     <dependencies>
+      <group targetFramework=".NETFramework4.0" >
+	  </group>
+    </dependencies>
     <description>$description$</description>
     <releaseNotes>FirstRelease that comprise of sqlConnection</releaseNotes>
     <copyright>Copyright 2020 @ Sabinusi Mlambo</copyright>
