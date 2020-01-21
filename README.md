@@ -1,11 +1,10 @@
 
 
- using Saby7
- 
- SQLSERVER desktopDataInstance = 
- new SQLSERVER(ConfigurationManager.ConnectionStrings["connectionStringNameGoeshere"].ConnectionString);
+using Saby7
 
-DataTable dataTable = desktopDataInstance.GetSPDataTable("storedprocedurenamegoes here");
+SQLSERVER desktopDataInstance = new SQLSERVER(ConfigurationManager.ConnectionStrings["connectionStringNameGoeshere"].ConnectionString);
+
+    DataTable dataTable = desktopDataInstance.GetSPDataTable("storedprocedurenamegoeshere");
 
     List<ExpectedObject> myList = new List<ExpectedObject>();
 	
