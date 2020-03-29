@@ -1,5 +1,3 @@
-
-
 using Saby7
 
 SQLSERVER desktopDataInstance = new SQLSERVER(ConfigurationManager.ConnectionStrings["connectionStringNameGoeshere"].ConnectionString);
